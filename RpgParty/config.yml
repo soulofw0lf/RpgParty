@@ -1,0 +1,17 @@
+#Default Config for Rpg Party
+#should roll windows automatically open when there are items to be rolled on?
+Auto Roll: true
+#Number of players allowed in a party
+MaxPlayers: 4
+#ammount of time in seconds a roll goes on for
+RollDuration: 60
+#Whether or not rolls are enabled on your server
+Rolls: true
+#Whether to check for enchants on pick up items for rolls 
+Enchant Roll: false
+#whether to check for specific lore on an item to determine if it should be rolled on
+Lore Roll: true
+#lore that should be check for gets listed here if the lore has a : in it replace it with an @ 
+Lores: 
+  1: roll
+  2: ReqLvl@1
